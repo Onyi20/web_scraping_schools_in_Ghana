@@ -3,7 +3,11 @@ Ghana with a population of approximately 35.3 million people has schools all ove
 These schools are of different types and for different educational levels.
 
 ## Objective
-To collect information on all schools present in Ghana I referred to the **Ghana Education Directory** which has the most accurate data on all active schools in Ghana. 
+This project aims to collect and structure comprehensive data on all active schools in Ghana using automated web scraping techniques. The data source for this project is the Ghana Education Directory, a trusted and authoritative platform that maintains up-to-date records of educational institutions across the country.
+
+The website organizes schools by educational level and ownership type (public and private), with each category distributed across multiple paginated pages. To handle this structure, the project uses Python-based scraping logic built around reusable functions and controlled iteration to systematically extract data from every section.
+
+The final output is a clean, structured dataset containing key information for each school, including institution name, type, education level, contact details, region, and location. This dataset is designed to support downstream analysis, visualization, geospatial mapping, and educational research applications. 
 
 ## Dataset/Website Information
 the Ghana Education Directory: https://www.ghanaeducationdirectory.com/ 
